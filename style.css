@@ -1,0 +1,52 @@
+.sbody {
+    width: 100%!important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://scx2.b-cdn.net/gfx/news/hires/2019/sunflowers.jpg);
+}
+
+p {
+    color: black;
+    font-size: medium;
+    margin: 5rem 0 0 1rem;
+    padding: 0.5rem 1rem 0.5rem 2rem;
+    font-size: .8rem;
+    display: inline-block;
+    color: #F0EEFF;
+    border-radius: 0.999em;
+    background-color: rgba(145, 49, 255, 0.616);
+}
+
+.bg-light {
+    background-color: #343a40c4!important;
+}
+
+.card {
+    height: fit-content;
+    margin: auto;
+}
+
+li {
+    float: right;
+}
+
+li a:hover {
+    background-color: hotpink;
+}
+
+.active {
+    background-color: hotpink;
+}
+
+.main-header {
+    font-size: 75px;
+    color: rgb(255, 255, 255);
+    padding: 0em;
+    text-shadow: 2px 2px;
+}
+
+@media screen and (max-width: 480px) {
+    .main-header {
+        font-size: 51px;
+    }
+}
